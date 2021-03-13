@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main()
+{
+    int n;
+    char str[15];
+    // Read integer n
+    scanf(" %d\n",&n);
+    // Write your code here
+    gets(str);
+    printf("%d\n",n*2);
+    puts(str);
+    return 0;
+}
